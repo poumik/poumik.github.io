@@ -14,10 +14,8 @@ p {
   color: green;
 }
 
-div {
-
 .listDiv {
   width: 100px;
   height: 100px;
-  border-style: dotted 2px;
+  border-style: dotted;
 }  
