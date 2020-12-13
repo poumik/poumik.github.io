@@ -16,6 +16,6 @@ p {
 .listDiv {
   width: 100px;
   height: 100px;
-  border: dotted;
+  border-style: dotted;
   border-width: 2px;
 }  
