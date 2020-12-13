@@ -19,3 +19,7 @@ p {
   border-style: dotted;
   border-width: 2px;
 }  
+
+ol {
+  type: A;
+ } 
