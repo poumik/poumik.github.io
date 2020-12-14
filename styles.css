@@ -40,3 +40,7 @@ ul {
   margin-bottom: 100px;
  }
 
+figure {
+    margin: 0;
+    padding: 0;
+}
