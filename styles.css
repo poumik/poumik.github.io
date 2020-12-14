@@ -45,3 +45,23 @@ figure {
     margin: 0;
     padding: 0;
 }
+
+#header {
+  background-color: red;
+}
+
+#nav {
+  background-color: white;
+}
+
+#aside {
+  background-color: black;
+}
+
+#section {
+  background-color: blue;
+}
+
+#footer {
+  background-color: gray;
+}
