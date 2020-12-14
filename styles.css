@@ -35,3 +35,6 @@ ul {
   list-style-type: square;
  } 
 
+progress {
+  margin-bottom: 100px;
+ }
