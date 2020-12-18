@@ -72,17 +72,8 @@ section:after {
   background-color: white;
 }
 
-#navMain:hover { color: red;
-}
-
-#aside {
-  background-color: black;
-  width: 30%;
-  padding-left: 15px;
-  margin-left: 15px;
-  float: left;
-  font-style: italic;
-  background-color: lightgray;
+a:hover { 
+  color: red;
 }
 
 #section {
