@@ -8,7 +8,9 @@ body {
 
 h1 {
   color: white;
-  font-size: 32px;	
+  font-size: 32px;
+  padding: 10px;
+  algin: center;
 }
 
 h2 {
@@ -28,6 +30,7 @@ p {
   height: 100px;
   border-style: dotted;
   border-width: 2px;
+  padding: 10px;
 }  
 
 ol {
@@ -57,6 +60,8 @@ nav ul {
 article {
   float: left;
   width: 70%;
+  padding: 10px;
+  algin: center;
 }
 
 section:after {
@@ -71,6 +76,8 @@ section:after {
 
 #navMain {
   background-color: white;
+  algin: center;
+  padding: 10px;
 }
 
 a:hover { 
