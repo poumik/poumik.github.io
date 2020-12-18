@@ -48,6 +48,18 @@ figure {
     padding: 0;
 }
 
+nav ul {
+  float: left;
+  width: 30%;
+  hight: auto;
+  background-color: LightGray;
+}
+
+article {
+  float: left;
+  width: 100%;
+}
+
 #header {
   background-color: red;
 }
