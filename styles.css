@@ -72,11 +72,7 @@ section:after {
   background-color: white;
 }
 
-#navMain {
-  a:hover {
-  color: red;
-}
-
+#navMain {{a:hover {color: red;}}
 
 #aside {
   background-color: black;
