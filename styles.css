@@ -2,6 +2,8 @@ body {
   background-color: Pink;
   color: black;
   width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
