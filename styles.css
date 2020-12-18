@@ -70,10 +70,11 @@ section:after {
 
 #nav {
   background-color: white;
-  a:hover {
+}
+
+a:hover {
   color: red;
  }
-}
 
 #aside {
   background-color: black;
