@@ -72,7 +72,8 @@ section:after {
   background-color: white;
   a:hover {
   color: red;
-}}
+ }
+}
 
 #aside {
   background-color: black;
