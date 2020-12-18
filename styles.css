@@ -58,7 +58,7 @@ figure {
 nav ul {
   float: left;
   width: 30%;
-  background-color: LightGray;
+  background-color: gray;
 }
 
 article {
@@ -96,4 +96,5 @@ a:hover {
 #footer {
   background-color: LightGray;
   padding: 10px;
+  algin: center;
 }
