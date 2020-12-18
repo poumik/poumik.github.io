@@ -68,10 +68,15 @@ section:after {
   background-color: red;
 }
 
-#nav {
+#navMain {
   background-color: white;
-  a:hover {color: red;}
 }
+
+#navMain {
+  a:hover {
+  color: red;
+}
+
 
 #aside {
   background-color: black;
