@@ -60,6 +60,7 @@ nav ul {
   width: 30%;
   height: 300px;
   background-color: gray;
+  padding: 10px;
 }
 
 article {
