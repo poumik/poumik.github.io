@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: Pink;
   color: black;
@@ -5,9 +9,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-* {
-  box-sizing: border-box;
 
 h1 {
   color: white;
