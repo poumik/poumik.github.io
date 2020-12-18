@@ -48,6 +48,10 @@ figure {
     padding: 0;
 }
 
+nav {
+  float: left;
+  width: 30%;
+
 #header {
   background-color: red;
 }
