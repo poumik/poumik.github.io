@@ -60,6 +60,12 @@ article {
   width: 100%;
 }
 
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #header {
   background-color: red;
 }
