@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Toisen viikon tehtävät</title>
+    <link rel="stylesheet" href="css/2viikontehtavat.css">
+    <script type="text/javascript" src="js/2viikonTehtavat.js">
 
+    </script>
+  </head>
+  <body class='body' background="resources/images/code-background.jpg">
+    <center><h1 style="color:lightgray; font-size:48px">Toisen viikon tehtävät</h1></center>
+    <article class='article' id='one'>
+    <h2>Numerot suuruusjärjestykseen</h2>
+    <p>Anna taulukkoon kolme eri lukua</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna 1. numero: <input type="text" id="first" value=""></p>
+      <p>Anna 2. numero: <input type="text" id="second" value=""></p>
+      <p>Anna 3. numero: <input type="text" id="third" value=""></p>
+      <button type="button" name="button" onclick="jarjestaNumerot()">Järjestä luvut</button>
+    </form>
+  </article>
+  <article  class='article' id='two'>
+    <h2>Suurin luku?</h2>
+    <p>Anna taulukkoon viisi eri lukua</p>
+    <form class="" action="index.html" method="post">
+      <p>Anna 1. luku: <input type="text" id="luku1" value=""></p>
+      <p>Anna 2. luku: <input type="text" id="luku2" value=""></p>
+      <p>Anna 3. luku: <input type="text" id="luku3" value=""></p>
+      <p>Anna 4. luku: <input type="text" id="luku4" value=""></p>
+      <p>Anna 5. luku: <input type="text" id="luku5" value=""></p>
+      <button type="button" name="button" onclick="suurinLuku()">Etsi suurin</button>
+    </form>
+  </article>
+  <article  class='article' id='tree'>
+    <h1>Parillinen vai pariton luku?</h2>
+    <p>Syötä kenttään jokin luku</p>
+    <p>Anna luku: <input type="text" id="luku" value=""></p>
+    <button type="button" name="button" onclick="paritonParillinen()">Tarkista</button>
+  </article>
+  <article  class='article' id='four'>
+    <h2>Ajo-oikeus</h2>
+    <p>Syötä ikäsi, niin katsotaan mitä ajoneuvoa saat ajaa, polkupyörää, mopoa vaiko autoa</p>
+      <form class="" action="index.html" method="post">
+        <p>Anna ikäsi: <input type="text" id="ika" value=""></p>
+        <button type="button" name="button" onclick="ajoOikeus()">Näytä ajoneuvo</button>
+      </form>
+    </article>
+    <article  class='article' id='five'>
+    <h2>Käännös</h2>
+      <p>Käännetään lausahdus "Hei maailma!"</p>
+    <p>Valitse haluamasi kieli</p>
+    <select class="" id="language">
+      <option value="en">Englanti</option>
+      <option value="sw">Ruotsi</option>
+      <option value="es">Espanja</option>
+    </select>
+    <button type="button" id="button" onclick="kaantaja()">Käännä</button>
+  </article>
+    <footer class='footer'>
+      <br>
+      <br>
+      <p style="color:lightgray;">Toisen viikon tehtävät by MPO</p>
+      <br>
+      <br>
+    </footer>
+  </body>
+</html>
