@@ -1,0 +1,55 @@
+.body
+{
+  width: auto;
+  height: 100%;
+}
+.article
+{
+  width: 500px;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding: 50px;
+  border-radius: 15px;
+  font-family: verdana;
+  color: lightgray;
+}
+.footer
+{
+  background-color: #16101a;
+  text-align: center;
+}
+#one{
+  background-color: black;
+}
+#two{
+  background-color: black;
+}
+#tree{
+    background-color: black;
+}
+#four{
+    background-color: black;
+}
+#five{
+    background-color: black;
+}
+#six{
+  background-color: black;
+}
+#seven{
+  background-color: black;
+}
+#eight{
+    background-color: black;
+}
+#nine{
+    background-color: black;
+}
+#ten{
+    background-color: black;
+}
+#eleven{
+    background-color: black;
+}
