@@ -1,1 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="CSS/tyyli.css">
+  <script src="JS/koodi.js"></script>
+  <title>Kirjautumislomake</title>
+</head>
+
+<body>
+  <header id="headeri">
+    <h1>ProkramKroup Oyj tekniikkasivusto & foorumi</h1>
+  </header>
+  <section>
+    <form class="" action="" method="post" id="kyselylomake" onsubmit="return kyselylomake();">
+      <h1 id="otsikko">Rekisteröidy käyttäjäksi.</h1>
+      <p id="kuvaus">Täytä alla olevat tiedot niin pääset osaksi tosi siistiä tekniikkasivustoa!</p>
+      <table>
+        <tr>
+          <th id="nimisyotto">Nimi: </th>
+          <th id="emailsyotto">Sähköpostiosoite: </th>
+          <th id="ikasyotot">Ikä: </th>
+        </tr>
+        <tr>
+          <td><input id="nimi" type="text" name="" value="" placeholder="Syötä nimesi"></td>
+          <td><input id="email" type="text" name="" value="" placeholder="Syötä emailosoitteesi"></td>
+          <td><input id="ika" type="text" name="" value="" placeholder="Syötä ikäsi"></td>
+        </tr>
+        <tr>
+          <th id="ddpotsikko">Henkinen ikä?</th>
+          <td colspan="2">
+            <select class="" id="pudotus" name="">
+              <option value="">--valitse--</option>
+              <option value="">Vauva</option>
+              <option value="">Teini</option>
+              <option value="">Eläkeläinen</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th id="rryhma1" colspan="3">Mitä käyttöjärjestelmää käytät?</th>
+        </tr>
+        <tr>
+          <td><input type="radio" name="radior1" value=""><label for="" id="radio1">Windows</label></td>
+          <td><input type="radio" name="radior1" value=""><label for="" id="radio2">Linux</label></td>
+          <td><input type="radio" name="radior1" value=""><label for="" id="radio3">MacOs</label></td>
+        </tr>
+        <tr>
+          <th id="rryhma2" colspan="3">Käyttämäsi ATK:</th>
+        </tr>
+        <tr>
+          <td><input type="radio" name="radior2" value=""><label for="" id="radio4">Läppäri</label></td>
+          <td><input type="radio" name="radior2" value=""><label for="" id="radio5">Pöytäkone</label></td>
+          <td><input type="radio" name="radior2" value=""><label for="" id="radio6">Tabletti</label></td>
+        </tr>
+        <tr>
+          <th id="zekkiboxit" colspan="3">CSGO taitotasosi?</th>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="zekbox" value=""><label for="" id="check1">Aloittelija</label></td>
+          <td><input type="checkbox" name="zekbox" value=""><label for="" id="check2">Peruspelaaja</label></td>
+          <td><input type="checkbox" name="zekbox" value=""><label for="" id="check3">Ammattilainen</label></td>
+        </tr>
+        <tr>
+          <td id="kommenttikentta" colspan="3"> <textarea name="name" rows="8" cols="60" placeholder="Tähän voit kirjoittaa kehittämisideoita sivuillemme, tai muutenvaan jotain hauskaa palautetta :D"></textarea> </td>
+        </tr>
+        <tr>
+          <td><button type="submit" id="laheta" name="button">Kirjaudu</button></td>
+        </tr>
+      </table>
+    </form>
+  </section>
+  <footer>
+    <p>ProkramKroup Oyj &copy; - 2021</p>
+  </footer>
+</body>
+
+</html>
 
