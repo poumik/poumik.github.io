@@ -13,7 +13,7 @@ body {
 #headeri {
   color: #d7d8df;
   font-family: 'Noto Sans JP', sans-serif;
-  margin-top: 35px;
+  margin-top: 50px;
 }
 #kyselylomake {
   width: 600px;
@@ -29,7 +29,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 #otsikko {
   color: #d7d8df;
@@ -126,6 +126,7 @@ textarea {
   resize: none;
 }
 #laheta {
+  margin-bottom: 50px;
   background-color: #141526;
   border: 3px solid #535467;
   border-radius: 8px;
@@ -136,8 +137,9 @@ textarea {
   height: 50px;
 }
 footer {
-    background-color: black; border: 0; padding: 30px; margin: 0;
-    text-align: center;
-    font-family: 'Noto Sans JP', sans-serif; color: #d7d8df;
+  background-color: black; border: 0; padding: 30px; margin: 0;
+  height: 150px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif; color: #d7d8df;
 }
 
