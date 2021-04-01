@@ -1,4 +1,4 @@
-/01B - Kirjautumislomake2 koodit
+//01B - Kirjautumislomake2 koodit
 //alert("kukkuu"); - toimii!
 function kyselylomake(form) {
 
