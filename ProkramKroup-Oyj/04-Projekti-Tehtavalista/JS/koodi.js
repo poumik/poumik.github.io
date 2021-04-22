@@ -72,3 +72,4 @@ function deleteAll() {
     console.log("poistetaan " + [x]);
   }
 }
+
