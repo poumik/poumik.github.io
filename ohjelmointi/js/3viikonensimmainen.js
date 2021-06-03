@@ -116,7 +116,7 @@ function muokkaaSalasana()
   var eka, toka;
   pw = document.getElementById('salis').value;
   alert(pw);
-  var taulu = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u','v', 'x', 'y', 'z', 'w'];
+  var taulu = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','k', 'l', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u','v', 'x', 'y', 'z', 'å', 'ä', 'ö', 'w'];
   var temp = [];
   var lop='';
   for(var s = 0; s < pw.length; s++)
